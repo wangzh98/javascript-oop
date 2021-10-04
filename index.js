@@ -1,7 +1,3 @@
-// Function Declaration
-function sayHello() {
-
-};
-
-// Function Expression
-const sayGoodbye = function() {};
+import { Circle } from "./circle.js";
+const c = new Circle(10);
+c.draw()
